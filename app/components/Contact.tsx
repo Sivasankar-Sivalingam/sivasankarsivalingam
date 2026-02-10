@@ -39,18 +39,21 @@ const Contact = () => {
             <a
               href={portfolioData.profile.contact.linkedin}
               className="text-gray-400 hover:text-blue-500 transition-colors"
+              aria-label="LinkedIn Profile"
             >
               <Linkedin />
             </a>
             <a
               href="https://github.com/Sivasankar-Sivalingam"
               className="text-gray-400 hover:text-blue-500 transition-colors"
+              aria-label="GitHub Profile"
             >
               <Github />
             </a>
             <a
               href="#"
               className="text-gray-400 hover:text-blue-500 transition-colors"
+              aria-label="Website"
             >
               <Globe />
             </a>

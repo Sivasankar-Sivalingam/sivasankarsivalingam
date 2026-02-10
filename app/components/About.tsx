@@ -1,5 +1,3 @@
-"use client";
-import React from "react";
 import portfolioData from "../../public/info.json";
 import { useScrollReveal } from "../hooks/useScrollReveal";
 
@@ -47,8 +45,8 @@ const About = () => {
 
           {/* Image/Visual */}
           <div className="order-1 lg:order-2 relative group">
-            <div className="absolute inset-0 bg-purple-950 rounded-lg transform translate-x-4 translate-y-4 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
-            <div className="relative bg-[url('/siva_standalone.png')] aspect-3/4 rounded-lg overflow-hidden grayscale hover:grayscale-0 transition-all duration-500">
+            <div className="absolute inset-0 bg-purple-950 rounded-lg transform translate-x-4 translate-y-4 group-hover:translate-x-2 group-hover:translate-y-2 group-active:translate-x-2 group-active:translate-y-2 transition-transform duration-300"></div>
+            <div className="relative bg-[url('/siva_standalone.webp')] bg-cover sm:bg-top-left  aspect-3/4 rounded-lg overflow-hidden grayscale hover:grayscale-0 active:grayscale-0 transition-all duration-500">
               <div className="absolute inset-0 bg-linear-to-t from-black/80 to-transparent z-10"></div>
               {/* Visual Placeholder */}
               {/* <div className="w-full h-full flex items-center justify-center bg-gray-800">
