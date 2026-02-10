@@ -1,5 +1,3 @@
-"use client";
-import React from "react";
 import portfolioData from "../../public/info.json";
 import { useScrollReveal } from "../hooks/useScrollReveal";
 
