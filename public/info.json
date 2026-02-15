@@ -8,7 +8,7 @@
       "linkedin": "https://www.linkedin.com/in/sivasankarsivalingam/",
       "location": "Chennai, India"
     },
-    "summary": "A results-oriented professional with over 10 years of experience in delivering robust web applications, possessing a diversified skillset within the frontend ecosystem. Demonstrates proficiency in providing effective technical leadership to transform complex requirements into innovative digital solutions. Experienced in developing applications using a micro-frontend design pattern and implementing a design system for common UI components. Adept in requirement analysis, effort estimation, stakeholder management, and cross-functional collaboration. Highly adaptive to the Agile Scrum methodology."
+    "summary": "Lead Frontend Engineer with 10+ years of experience in architecting robust enterprise applications for global clients, possessing a diversified skillset in the frontend ecosystem. Proven track record of technical leadership in developing applications in Micro-Frontends (MFE) using React, Module Federation, and Design Systems. Adept in requirement analysis, effort estimation, stakeholder management, and cross-functional collaboration. Highly adaptive and proficient in the Agile Scrum methodology. Passionate about leveraging Generative AI tools to enhance development efficiency and drive innovation in frontend solutions."
   },
   "experience": [
     {
@@ -77,34 +77,37 @@
   ],
   "skills": {
     "technical": [
+      "React",
+      "Redux Saga",
+      "Angular",
+      "JavaScript",
+      "TypeScript",
+      "GraphQL",
+      "Jest",
       "HTML5",
       "CSS3",
       "Bootstrap",
       "Material UI",
-      "JavaScript",
-      "TypeScript",
-      "React",
-      "Redux Saga",
-      "Angular",
+      "Next.js",
+      "Tailwind CSS",
       "RxJS",
       "Jasmine",
-      "Jest",
       "Responsive Web Designing",
       "Browser Compatibility",
       "AX Accessibility"
     ],
     "tools": [
-      "Gitlab",
-      "VS Code",
-      "Jira",
-      "Confluence",
+      "Git",
+      "Figma",
       "Jenkins",
       "SonarQube",
       "Junit",
       "Storybook",
       "NVDA - Accessibility",
       "Kibana",
-      "Postman"
+      "Postman",
+      "Jira",
+      "Confluence"
     ],
     "generative_ai": [
       "Prompt Engineering",
@@ -115,10 +118,10 @@
     ],
     "soft_skills": [
       "Design Thinking",
-      "Project Management",
       "Leadership",
-      "Business Continuity",
-      "Agile"
+      "Defect Management",
+      "Cross-functional collaboration",
+      "Mentorship"
     ]
   },
   "certifications": [
@@ -139,10 +142,10 @@
     }
   ],
   "achievements": [
-    "Vibe Coding: Honored to be a part of Cognizant's Guinness World Records™ title achievement.",
+    "Vibe Coding: Honored to be a contributor for Cognizant Guinness World Records™ title achievement in a Generative AI Hackathon, developing an AI driven solution using Cursor and LLMs.",
     "Completed HCL ACE program on building UI KIT Library using Web Components.",
-    "Won Innovation Pride Award in Delta 5K Innovation Challenge.",
-    "Won Special Jury Mention Award in Digital Exponential challenge conducted by TCS Research and Innovation Team.",
-    "Generated multiple pilot projects through TCS TTH Innovation Program using Design Thinking."
+    "Recipient of the `Innovation Pride Award` at Delta 5K Innovation Challenge for optimizing crew management workflows.",
+    "Awarded the `Special Jury Mention Award` in Digital Exponential challenge conducted by TCS Research and Innovation Team.",
+    "Won Digital Champion award for generating multiple pilot projects through TCS TTH Innovation Program using Design Thinking."
   ]
 }

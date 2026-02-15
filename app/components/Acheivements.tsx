@@ -6,7 +6,6 @@ import { useScrollReveal } from "../hooks/useScrollReveal";
  * COMPONENT: Achievements (Grid)
  */
 const Achievements = () => {
-  const { ref, isVisible } = useScrollReveal();
   return (
     <section id="achievements" className="py-32 bg-[#050505] text-white">
       <div className="max-w-7xl mx-auto px-6">
@@ -24,9 +23,7 @@ const Achievements = () => {
           {portfolioData.achievements.map((item, i) => (
             <div
               key={`${i}-achievement`}
-              ref={ref}
-              className={`group relative overflow-hidden bg-white/5 p-8 rounded-xl hover:bg-blue-600  transition-all duration-500
-                transform ${isVisible ? "translate-x-0 opacity-100" : "-translate-x-20 opacity-0"}`}
+              className="group relative overflow-hidden bg-white/5 p-8 rounded-xl hover:bg-blue-600 transition-colors duration-500"
             >
               <div className="flex items-start gap-4 relative z-10">
                 <span className="text-4xl font-black text-white/20 group-hover:text-white/40 transition-colors">
